@@ -1,0 +1,43 @@
+/* p a{
+    color:rgb(216, 68, 162)
+} */
+
+nav ul li a{
+    color:rgb(62, 99, 145);
+}
+
+.abc a{
+    color:rgb(34, 16, 51);
+}
+
+p + h3{
+    color:rgb(149, 66, 194);
+}
+
+button:hover{
+    color:bisque;
+    background-color: blueviolet;
+}
+
+button:active{
+    color:black;
+    background-color: cornflowerblue;
+}
+
+div input[type="radio"]+label{
+    color:blueviolet;
+}
+
+div input[type="radio"]:checked+label{
+    color:brown;
+}
+
+p:nth-of-type(1N){
+    background-color: cadetblue;
+}
+
+h1{
+    color:rgb(202, 22, 22) !important;
+    text-decoration: underline rgb(63, 63, 133);
+}
+

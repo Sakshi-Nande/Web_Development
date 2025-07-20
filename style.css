@@ -1,0 +1,22 @@
+h2{
+    color:aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para{
+    color:brown;
+}
+#name{
+    color:#4783d1;
+   
+}
+#pseudo:hover{
+    color:rgba(52,29,85,0.3);
+}
+
+textarea{
+    background-color: blueviolet;
+}
+
+#hoverh4:hover{
+color: rgba(120, 46, 224, 0.7);
+}

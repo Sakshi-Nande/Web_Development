@@ -1,0 +1,32 @@
+#face{
+    background-color: rgb(253, 249, 27);
+    height: 200px;
+    width:200px;
+    margin:50px;
+    border-radius: 50%;
+}
+
+.leye,.reye{
+    background-color: rgba(26, 23, 23, 0.963);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left:105px;
+}
+.reye{
+    left: 182px;
+}
+
+#mouth{
+    height: 30px;
+    width:95px;
+    background-color: rgb(199, 4, 4);
+    border-radius: 0 0 50% 50%;
+    position: absolute;
+    left: 110px;
+    top:170px;
+
+}

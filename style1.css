@@ -1,0 +1,30 @@
+body {
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark {
+    background-color: #1a202c; /* Dark background */
+    color: #cbd5e0; /* Light text */
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #00adb5; /* Neon accent color */
+    text-shadow: 0 0 10px #00adb5; /* Glowing effect */
+  }
+  
+  .theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking</title>
+</head>
+<body>
+    <center></center>
+  <h2>Train Booking Form</h2>
+  <form>
+    <label for="name">Passenger Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="stops">From:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <datalist id="stops">
+        <option value="Akurdi">Akurdi</option>
+        <option value="pune station">pune station</option>
+        <option value="Satara">Satara</option>
+        <option value="Kolhapur">Kolhapur</option>
+    </datalist>
+    <input list="stops" placeholder="Select From Location"/><br><br>
+
+    <label for="to">To:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <datalist id="stops">
+        <option value="pune station">pune station</option>
+        <option value="Satara">Satara</option>
+        <option value="Kolhapur">Kolhapur</option>
+    </datalist>
+    <input list="stops" placeholder="Select From Location"/><br><br>
+
+    <label for="date">Travel Date:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="date" id="date" name="date"><br><br>
+
+    <label for="class">Class:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select id="class" name="class">
+      <option value="sleeper">Sleeper</option>
+      <option value="ac">AC</option>
+      <option value="first">First Class</option>
+    </select><br><br>
+
+    <input type="submit" value="Book Ticket">
+  </form>
+</body>
+</html>
