@@ -1,0 +1,15 @@
+
+    #headerr{
+        display: flex;
+        justify-content: space-between;
+        background: rgb(46, 188, 227);
+    }
+
+    #maincontent{
+        text-align: center;
+    }
+ 
+    #form1{
+        display:flex;
+        justify-content: center;
+    }
