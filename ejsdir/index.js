@@ -4,6 +4,8 @@ const app=express();
 
 const port=3000;
 
+app.use(express.static(path.join(__dirname,"public")));
+
 app.set("view engine","ejs");
 app.set("views",path.join(__dirname,"/views"));
 
@@ -19,9 +21,25 @@ app.get("/rolldice",(req,res)=>{
 });
 
 app.get("/ig/:username",(req,res)=>{
-    const { username }=req.params;
-    res.render("insta",{ username });
+    // const followers=['sakshi','sanika','sanjay','dhanashri'];
+    // const { username }=req.params;
+    // res.render("insta",{ username , followers });
+
+    const instadata = require("./data.json");
+    const { username } = req.params;
+    const data =instadata[username];
+    if(data)
+        {
+            res.render("insta" , { username , data});
+        }
+        else {
+            res.render("error");
+        }
+
+
+
 });
+
 
 app.listen(port,()=>{
     console.log("listening ");

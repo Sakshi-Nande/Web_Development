@@ -5,8 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instagram</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <h1> This page is of  <%= username %> </h1>
+
+    <h3> Followers : <%= data.followers %> </h3>
+    <h3> Following : <%= data.following %> </h3>
+
+    <% for( let post of data.posts) { %>
+        
+        <img src="<%= post.image %>" height="100px" width="100px">
+        <h3> Likes: <%= post.likes %> </h3>
+        <h3> comments : <%= post.comments %> </h3>
+    <button>click me !!</button>
+   <%  } %>
+
+   <script src="/script.js"></script>
 </body>
 </html>
