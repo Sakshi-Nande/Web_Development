@@ -1,0 +1,10 @@
+body{
+    background-color: bisque;
+    margin: 5px;
+}
+
+.post{
+    margin: 10px;
+    padding:10px;
+    background-color: cornflowerblue;
+}
